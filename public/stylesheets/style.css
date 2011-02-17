@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  background-image: url(../images/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: top center; }
+
+.container_16 {
+  background-color: white;
+  padding-bottom: 25px; }
+
+.cabecera {
+  background-color: grey;
+  margin-top: 25px;
+  height: 125px; }
+
+.carrusel_flash {
+  background-color: grey;
+  margin-top: 25px;
+  height: 125px; }
+
+.caja_publicidad {
+  background-color: grey;
+  height: 125px;
+  margin-top: 25px; }
+
+.caja_productos {
+  background-color: grey;
+  height: 125px;
+  margin-top: 25px; }

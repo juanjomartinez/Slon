@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 %html
 %head
 	%title= 'Slon'
@@ -6,4 +5,10 @@
 	= javascript_include_tag :defaults
 	= csrf_meta_tag
 
-%body= yield
+%body
+	.container_16
+		.grid_16.cabecera= 'Cabecera de SLON'
+		.grid_16.carrusel_flash= 'Carrusel de vídeos en flash'
+		= yield
+		.clear
+	.clear
